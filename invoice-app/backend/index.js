@@ -14,6 +14,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:5000",
       "https://wrg-invoice.netlify.app/",
+      "https://wrg-invoice-app.herokuapp.com/"
     ],
     credentials: true,
   })
