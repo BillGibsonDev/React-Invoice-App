@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    background: lightblue;
+}
+
+.App {
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    background: lightyellow;
+}
+
+.homescreen,
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 70vh;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    min-height: 10%;
+    justify-content: center;
+    background: rgb(0, 250, 104);
+}
+
+h2 {
+    margin: 2rem;
+}
+
+.nav button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: 700;
+}
+
+h2,
+.nav button {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2:hover,
+.nav button:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+tr {
+    row-gap: 1rem;
+    border: 1px solid black;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: rgb(229, 255, 0);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.create-container,
+.create-user {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.invoice-form,
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    min-height: 110vh;
+    font-size: 2rem;
+    background: lightblue;
+    margin: auto;
+}
+
+.top-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    background: lightgray;
+    margin: 2rem 0;
+    width: 95%;
+}
+
+.bottom-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    background: lightgray;
+    margin: 2rem 0;
+    width: 95%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-form input,
+.user-form input,
+.login-form input {
+    margin: 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+
+label {
+    margin: 1rem;
+    width: 80%;
+}
+
+input,
+select {
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+form .form-btn-container {
+    width: 100%;
+    height: 10vh;
+}
+
+.form-buttons {
+    margin: 2rem 6rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.form-buttons:hover,
+.form-buttons a:hover {
+    color: #ffffff;
+    background: blue;
+    cursor: pointer;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
