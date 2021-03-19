@@ -6,7 +6,7 @@
 }
 
 html {
-    background: lightblue;
+    background: rgb(56, 201, 250);
 }
 
 .App {
@@ -42,7 +42,7 @@ a {
     display: flex;
     min-height: 10%;
     justify-content: center;
-    background: rgb(0, 250, 104);
+    background: rgb(255, 255, 255);
 }
 
 h2 {
@@ -64,7 +64,7 @@ h2,
 
 h2:hover,
 .nav button:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 238, 255);
     cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ tr:hover {
 th {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
 }
 
@@ -194,4 +194,29 @@ form .form-btn-container {
     width: 100%;
     height: 30%;
     margin: auto;
+}
+
+.hiddenContainer {
+    position: relative;
+    display: none;
+    text-align: center;
+    background: rgb(187, 255, 0);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.hiddenContainer label {
+    border-right: 2px solid black;
+    padding: 0 1rem;
+    margin: .5rem;
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.hiddenContainer label:last-child {
+    border: none
+}
+
+.hiddenContainer:hover {
+    background: lightcoral;
 }

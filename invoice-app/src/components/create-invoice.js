@@ -30,12 +30,12 @@ export default class CreateInvoice extends Component {
       date: new Date(),
       users: [],
       status: '',
-      balancedue: 0,
+      balancedue: '',
       customerName: '',
-      phone: 0,
+      phone: '',
       email: '',
       address: '',
-      invoiceNum: 0
+      invoiceNum: ''
     }
   }
 
@@ -143,7 +143,7 @@ export default class CreateInvoice extends Component {
   render() {
     return (
     <div className="create-container">
-      <h3>Create New Invoice</h3>
+      <h3>New Invoice</h3>
       <form onSubmit={this.onSubmit} className="invoice-form">
       <button className="form-buttons" type="submit" value="Cancel">
         <Link to="/invoice-list">

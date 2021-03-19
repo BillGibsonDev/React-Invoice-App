@@ -29,7 +29,7 @@ function Router() {
         </Route>
         {loggedIn === false && (
           <>
-            <Route path="/login">
+            <Route path="/Login">
               <Login />
             </Route>
           </>

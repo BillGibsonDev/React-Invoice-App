@@ -13,7 +13,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5000",
-      "https://wrg-invoice.netlify.app/",
+      "https://wrg-invoice-app.netlify.app/",
       "https://wrg-invoice-app.herokuapp.com/"
     ],
     credentials: true,
@@ -28,11 +28,12 @@ mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true }
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log("MongoDB database connection established successfully");
-});
+})
 
+
+//routes
 const invoicesRouter = require('./routes/invoices');
 const usersRouter = require('./routes/users');
-
 
 app.use("/auth", require("./routes/users"));
 app.use('/invoices', invoicesRouter);

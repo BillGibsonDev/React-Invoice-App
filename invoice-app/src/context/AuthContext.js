@@ -7,9 +7,9 @@ function AuthContextProvider(props) {
   const [loggedIn, setLoggedIn] = useState(undefined);
 
   async function getLoggedIn() {
-    // const loggedInRes = await axios.get("http://localhost:5000/auth/loggedIn");
+    // const loggedInRes = await axios.get("https://wrg-invoice-app.netlify.app/auth/loggedIn");
     const loggedInRes = await axios.get(
-      "http://localhost:5000/auth/loggedin"
+      "http://localhost:5000/auth/loggedIn"
     );
     setLoggedIn(loggedInRes.data);
   }
