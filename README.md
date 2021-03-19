@@ -3,6 +3,7 @@
 React Invoice App built with the MERN Stack using MongoDb as a database. Currently this project is still under onstruction and does not function as designed deployed. 
 
 To Do:
+
 Deploy functionality;
 
 Rework edit button on invoice list;
