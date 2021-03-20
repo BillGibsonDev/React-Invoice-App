@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import AuthContext from "../context/AuthContext";
 // image
-import Skynet from '../skynet.jpg';
+import Workflow from '../workflow.jpg';
 
 
 function Login() {
@@ -37,8 +37,8 @@ function Login() {
   return (
     <div>
       <div className="login-page">
-      <img src={Skynet} alt=""/>
-      <h3>Skynet Work Flow</h3>
+      <img src={Workflow} alt=""/>
+      <h3>WorkFlow</h3>
       <h3>Please Log In</h3>
       <form onSubmit={login} className="login-form">
         <label>Username: 

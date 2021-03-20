@@ -27,6 +27,11 @@ html {
     min-height: 70vh;
 }
 
+.homescreen img,
+.login-page img {
+    width: 20%;
+}
+
 h3 {
     font-size: 2rem;
     margin: 1rem;
